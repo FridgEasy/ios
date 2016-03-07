@@ -407,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FridgeEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -418,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FridgeEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -488,6 +490,7 @@
 				C1A580551C8CEFEA005A98DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1A580561C8CEFEA005A98DE /* Build configuration list for PBXNativeTarget "FridgeEasyTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +499,7 @@
 				C1A580581C8CEFEA005A98DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1A580591C8CEFEA005A98DE /* Build configuration list for PBXNativeTarget "FridgeEasyUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +508,7 @@
 				C1A5805B1C8CEFEA005A98DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
