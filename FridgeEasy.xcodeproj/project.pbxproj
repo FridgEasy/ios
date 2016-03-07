@@ -76,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C11CF6F41C8D037A0017AF72 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		C11CF6F61C8D03A50017AF72 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C1A5802E1C8CEFE9005A98DE /* MasterViewController.swift */,
+				C1A580301C8CEFE9005A98DE /* DetailViewController.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		C1A580201C8CEFE9005A98DE = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +115,9 @@
 		C1A5802B1C8CEFE9005A98DE /* FridgeEasy */ = {
 			isa = PBXGroup;
 			children = (
+				C11CF6F61C8D03A50017AF72 /* views */,
+				C11CF6F41C8D037A0017AF72 /* models */,
 				C1A5802C1C8CEFE9005A98DE /* AppDelegate.swift */,
-				C1A5802E1C8CEFE9005A98DE /* MasterViewController.swift */,
-				C1A580301C8CEFE9005A98DE /* DetailViewController.swift */,
 				C1A580321C8CEFE9005A98DE /* Main.storyboard */,
 				C1A580351C8CEFE9005A98DE /* Assets.xcassets */,
 				C1A580371C8CEFE9005A98DE /* LaunchScreen.storyboard */,
